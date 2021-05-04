@@ -6,9 +6,10 @@ import gameWork.interfaces.functionsCampaigns;
 public class CampaignsManager implements functionsCampaigns {
 
 	@Override
-	public void save(Campaigns campaign) {
-		System.out.println(campaign.getName()+" "+ "Kampanyamýz %"+""+campaign.getDiscount()+" "+"indirimle baþlamýþtýr");
-		
+	public void saveAll(Campaigns[] campaign) {
+		for(Campaigns campaign1 : campaign) {
+		System.out.println(campaign1.getName()+" "+ "Kampanyamýz %"+""+campaign1.getDiscount()+" "+"indirimle baþlamýþtýr");
+		}
 	}
 
 	@Override

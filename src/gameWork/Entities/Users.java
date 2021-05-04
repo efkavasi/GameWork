@@ -10,6 +10,11 @@ public class Users {
 	private String email;
 	private String nationalId;
 	
+	Users[] users;
+	
+	public Users() {
+		
+	}
 	
 	public Users(int id, int birthYear, String userName, String firstName, String lastName, String email,
 			String nationalId) {

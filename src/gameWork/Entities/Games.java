@@ -6,6 +6,8 @@ public class Games {
 	private String gameName;
 	private double price;
 	
+	Games[] games;
+	
 	public Games(int id, String gameName, double price) {
 		super();
 		this.id = id;

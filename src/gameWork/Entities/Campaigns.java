@@ -5,6 +5,8 @@ public class Campaigns {
 	private String name;
 	private double discount;
 	
+	Campaigns[] campaigns;
+	
 	public Campaigns(int id, String name, double discount) {
 		super();
 		this.id = id;
