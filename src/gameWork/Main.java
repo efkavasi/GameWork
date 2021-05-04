@@ -16,7 +16,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		UserManager userManager1 = new UserManager(new MernisAdapter()); 
-		userManager1.save(new Users(007, 1981, "efka", "Engin", "Þen", "engin@engin.com", "35560092448"));
+		userManager1.save(new Users(007, 1981, "efka", "ahmet", "Þen", "engin@engin.com", "12345678"));
 		
 		Games game1 = new Games(010, "FAR CRY", 750);	
 		Games game2 = new Games(003, "Half Life 2", 500);
@@ -31,8 +31,8 @@ public class Main {
 		campaignsManager.save(campaign);
 	
 		//SellManager sellManager = new SellManager();
-		//sellManager.sell(game2, user1);
-		//sellManager.giftPoint(game2,user1);
+		//sellManager.sell(game2, users);
+		//sellManager.giftPoint(game2,users);
 	}
 
 }
